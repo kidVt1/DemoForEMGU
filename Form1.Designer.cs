@@ -118,7 +118,7 @@ namespace DemoForEmgu
             base.Controls.Add(this.picture);
             base.Controls.Add(this.camara);
             base.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FaceReconizer";
             ((ISupportInitialize)this.camara).EndInit();
             ((ISupportInitialize)this.picture).EndInit();
             this.panel1.ResumeLayout(false);
@@ -127,35 +127,15 @@ namespace DemoForEmgu
             base.ResumeLayout(false);
             base.PerformLayout();
         }
-
-        // Token: 0x04000008 RID: 8
         private ImageBox camara;
-
-        // Token: 0x04000009 RID: 9
         private ImageBox picture;
-
-        // Token: 0x0400000A RID: 10
         private Button TakePhoto;
-
-        // Token: 0x0400000B RID: 11
         private TextBox textBox1;
-
-        // Token: 0x0400000C RID: 12
         private Button button1;
-
-        // Token: 0x0400000D RID: 13
         private Button button2;
-
-        // Token: 0x0400000E RID: 14
         private Panel panel1;
-
-        // Token: 0x0400000F RID: 15
         private Label label1;
-
-        // Token: 0x04000010 RID: 16
         private ImageBox imageBox1;
-
-        // Token: 0x04000011 RID: 17
         private Button button3;
     }
 }
